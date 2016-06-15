@@ -1,0 +1,26 @@
+body{
+  background-color: lightgrey;
+}
+
+.page-header{
+
+  width: 90%;
+  height: 80px;
+}
+
+h1{
+  font-family: "Lato" Verdana sans-serif;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+}
+
+.artist{
+  margin-right: 6em;
+}
+
+.weather{
+
+}

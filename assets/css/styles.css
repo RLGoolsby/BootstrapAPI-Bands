@@ -3,7 +3,6 @@ body{
 }
 
 .page-header{
-
   width: 90%;
   height: 80px;
 }
@@ -11,16 +10,42 @@ body{
 h1{
   font-family: "Lato" Verdana sans-serif;
   text-align: center;
+  font-size: 50px;
+  color: #428bca;
 }
 
-li{
+.form-group{
+  font-size: 20px;
+  margin-left: 3.5em;
+
+}
+
+
+#rockinput{
+  margin-left: 1em;
+  margin-right: 20em;
+  border-bottom: 2px solid black;
+}
+
+img{
   display: inline-block;
+  margin-top: 20px;
+  margin-left: 8em;
 }
 
-.artist{
-  margin-right: 6em;
+
+
+
+
+
+
+
+#cuddleinput{
+  margin-left: 1em;
+  border-bottom: 2px solid black;
+
 }
 
-.weather{
-
+button{
+  margin-left: 30px;
 }

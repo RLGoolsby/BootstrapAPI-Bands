@@ -5,6 +5,7 @@ body{
 .page-header{
   width: 90%;
   height: 80px;
+  border-bottom: 2px solid white;
 }
 
 h1{

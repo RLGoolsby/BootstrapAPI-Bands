@@ -1,11 +1,19 @@
+
+//  THIS WAS MY SECOND PLAN--MY INTENTION WAS TO CONNECT BAND NAMES AND LYRICS TO BABY IMAGES AND NAMES
+//  TO THE BANDS/SONGS THAT CONTAIN THE WORD BABY IN THEM.     THIS ALL PRESENTED ITSELF TO  AS
+//  I CONTINUED TO TRY TO FIND A GOOD API AND TRY TO TIE IT ALL TOGETHER.   ALAS.  I NEED MORE TIME
+//  TO REALLY MAKE IT WORK. 
+
+
+//////////////////////////////////////////////////////////////////////////////////
 // (function(){
 //   "use strict";
-
+////////   API CONNNECT FOR BAND NAMES                      ////////////////////
 var artistname = $('input[name="artist"]').val();
 // var weathertype =$('input[type="weather"]').val();
 
 $(".form-control").on("click", function(){
-$.getJSON('http://api.bandsintown.com/Sheryl-Crow/.json?api_version=2.0&app_id=rhonda')
+$.getJSON('http://api.bandsintown.com/Fleetwood-Mac/.json?api_version=2.0&app_id=rhonda')
 .done(success);
 
 function success () {
@@ -13,15 +21,14 @@ function success () {
 
 }
 console.log("yeap");
-
-
 });
 
-
+////////////////////////////////////////////////////////////////////////////////
+////////    TRYING TO CREATE AN API CALL FOR BABY NAMES     ////////////////////
 var weather = $('input[name="babies"]').val();
 
 $(".form-control").on("click", function(){
-$.getJSON('http://placekitten.com/200/300')
+$.getJSON('http://www.behindthename.com/api/lookup.php')
 // .done(success again);
 
 function success () {
@@ -29,7 +36,10 @@ function success () {
 }
 console.log("humm");
 });
+/////////////////////////////////////////////////////////////////////////////////
 
+///////////////////////////////////////////////////////////////////////////////////
+//  STARTED IN THIS DIRECTION  AND STOPPED  TO PURSUE  THE GET.JSON WAY   /////////
 // $.ajax({
 //   Type: "GET",
 //   url: 'http://api.bandsintown.com/artists/name.json'
@@ -40,8 +50,7 @@ console.log("humm");
 // });
 
 // });
-
-
+/////////////////////////////////////////////////////////////////////////////////
 
 
 
